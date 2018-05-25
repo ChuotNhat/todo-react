@@ -1,0 +1,75 @@
+.container {
+  width: 350px;
+  min-height: 500px;
+  padding: 30px 15px;
+  margin: 50px auto;
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+h3 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+form {
+  padding-bottom: 20px;
+  width: 100%;
+}
+form input:nth-child(1) {
+  border: 1px solid grey;
+  border-bottom: 0;
+}
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+  outline: 0;
+  border: 1px solid grey;
+}
+.line {
+  text-decoration: line-through;
+  padding: 10px 0;
+}
+.no-line {
+  text-decoration: none;
+  padding: 10px 0;
+}
+.redClass {
+  color: #dc281e;
+}
+.blueClass {
+  color: #4285F4;
+}
+.filter-select{
+  padding-top: 20px;
+}
+ul {
+  list-style-type: none;
+  padding: 20px 0;
+  margin: 0;
+  max-height: 300px;
+  overflow: auto;
+  margin-top: 20px;
+}
+li {
+  border-bottom: 1px dashed black;
+  padding: 20px 0;
+  text-transform: capitalize;
+}
+.btn {
+  padding: 15px 20px;
+  border: none;
+  outline: 0;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.btn--delete {
+  background: #dc281e;
+}
+.btn--submit {
+  background: #0099CC;
+}
